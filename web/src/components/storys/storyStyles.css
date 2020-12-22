@@ -1,0 +1,110 @@
+.container-feed {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+ 
+
+  margin-top: 40px;
+  margin-left: 20px;
+
+  transition: 500ms;
+}
+
+.container-feed .story {
+  width: 800px;
+  float: left;
+  
+}
+
+.container-feed .feed {
+  width: 800px;
+}
+
+.container-feed .feed .post {
+  margin-top: 40px;
+  width: 600px;
+
+
+  border: 0.5px solid #e3e3e3;
+}
+
+.container-feed .feed .post .user-picture{
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+
+.container-feed .feed .post .user-picture p{
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.container-feed .feed .post img {
+  width: 600px;
+ 
+}
+
+.container-feed .feed .post .actions {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.container-feed .feed .post .actions .icon-post {
+  margin-left: 10px;
+}
+
+.container-feed .feed .post .actions  .save{
+  
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.container-feed .feed .post .actions  .save .icon-save{
+  margin-right: 5px;
+}
+
+.container-feed .feed .post .likes {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.container-feed .feed .post .coment {
+  display: flex;
+  margin-left: 10px;
+}
+
+.container-feed .feed .post .coment > p{
+  margin-right: 10px;
+}
+
+
+@media(max-width: 1050px){
+  .container-feed {
+   margin-left: 40px;
+  }
+}
+
+
+@media(max-width: 1000px){
+  .container-feed {
+    width: 600px;
+  }
+  
+  .container-feed .story {
+    width: 200px;
+
+    
+  }
+  
+  .container-feed .feed {
+    width: 400px;
+  }
+}

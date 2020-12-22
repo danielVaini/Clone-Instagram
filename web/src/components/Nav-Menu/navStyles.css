@@ -1,0 +1,91 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #fafafa;  
+}
+
+
+.container-nav {
+  border-bottom: 1px solid rgb(211, 209, 209) ;
+  position: fixed;
+  width: 100%;
+  max-width: 1800px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fafafa;
+  transition: 500ms;
+}
+
+.container .container-nav .localizar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.container .container-nav .localizar input{
+  text-align: center;
+  height: 30px;
+  background-color: #fafafa;
+  outline: none;
+  border: 0.5px solid #d8d8d8;
+  width: 200px;
+
+  border-radius: 5px;
+}
+
+
+.container .container-nav .localizar input::placeholder{
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+
+.container .container-nav .localizar .icon-search{
+  position: absolute;
+  left: 45px;
+}
+.container .container-nav .localizar:focus  .icon-search{
+  left: 5px;
+}
+
+.container-nav .icons-menu ul{
+  width: 200px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+              
+
+.container .container-nav .icons-menu ul li{
+  padding: 5px 10px;
+}
+
+
+
+.container .container-nav .icons-menu ul .picture-perfil img{
+  border-radius: 25px;
+  
+  border: 1px solid black;
+}
+
+
+.container .container-nav .icons-menu ul .picture-perfil{
+  height: 30px;
+  width: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 20px;
+  border: 1px solid black
+}
+
+

@@ -1,0 +1,52 @@
+.container-menu-lateral {
+  width: 400px;
+  height: 400px;  
+ 
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.container-menu-lateral .fixed{
+  position: fixed;
+}
+.container-menu-lateral .container-acount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.container-menu-lateral .user-acount {
+  display: flex;
+  align-items: center;
+}
+
+.container-menu-lateral .user-acount .user-name {
+  margin-left: 15px;
+}
+
+.container-menu-lateral .user-acount .user-name .name-user {
+  margin-bottom: -15px;
+}
+.container-menu-lateral .user-acount .user-name p{
+  
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.container-menu-lateral .suggestion .legend{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media(max-width: 1000px){
+  .container-menu-lateral {
+    width: 100px;
+    height: 100px;  
+    margin-right: 40px;
+  }
+
+  .container-menu-lateral .user-acount .user-name {
+    margin-left: 5px;
+  }
+}
